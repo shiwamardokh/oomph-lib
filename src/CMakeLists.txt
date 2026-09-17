@@ -52,7 +52,9 @@ set(SUBDIRS
     linearised_navier_stokes
     generalised_newtonian_navier_stokes
     generalised_newtonian_axisym_navier_stokes
-    space_time)
+    space_time
+    plasticity_constitutive
+    plasticity)
 
 # Add each subdirectory target to the build
 foreach(SUBDIR IN LISTS SUBDIRS)

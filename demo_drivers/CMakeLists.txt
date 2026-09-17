@@ -74,7 +74,8 @@ set(SUBDIRS
     time_harmonic_linear_elasticity
     unsteady_heat
     womersley
-    young_laplace)
+    young_laplace
+    plasticity)
 
 if(OOMPH_HAS_MPI)
   list(APPEND SUBDIRS mpi)
